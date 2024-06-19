@@ -1,0 +1,41 @@
+{
+  "name": "storybook-7-vue-3-sample",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.13.1",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^8.1.10",
+    "@storybook/addon-backgrounds": "^8.1.10",
+    "@storybook/addon-controls": "^8.1.10",
+    "@storybook/addon-docs": "^8.1.10",
+    "@storybook/addon-interactions": "^8.1.10",
+    "@storybook/addon-measure": "^8.1.10",
+    "@storybook/addon-outline": "^8.1.10",
+    "@storybook/addon-toolbars": "^8.1.10",
+    "@storybook/addon-viewport": "^8.1.10",
+    "@storybook/jest": "^0.2.3",
+    "@storybook/test-runner": "^0.18.2",
+    "@storybook/testing-library": "^0.2.2",
+    "@storybook/vue3-vite": "^8.1.10",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "storybook": "8.1.10",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vue-tsc": "^2.0.6"
+  },
+  "resolutions": {
+    "glob": "^9.0.0",
+    "rimraf": "^4.0.0"
+  }
+}
